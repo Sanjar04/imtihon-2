@@ -1,0 +1,97 @@
+.join__inner {
+   display: flex;
+   padding-left: 165px;
+}
+
+.join__inner__card__title {
+   width: 445px;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 48px;
+   letter-spacing: -2.14286px;
+   color: #495567;
+   margin-top: 120px;
+}
+
+.join__inner__card__copy {
+   width: 445px;
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   color: #939CAA;
+   margin-top: 24px;
+}
+
+.join__inner__card__btn{
+   padding-top: 14px;
+   padding-bottom: 14px;
+   padding-left: 39px;
+   padding-right: 39px;
+   background: #FCB72B;
+   border: none;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 25px;
+   color: #FFFFFF;
+   margin-top: 40px;
+}
+
+.join__inner__card__btn:hover{
+   color: #FCB72B;
+   background: none;
+   border: 1px solid #FCB72B;
+}
+
+.join__inner__card__daf{
+   display: none;
+}
+
+.join__inner__size{
+   margin-left: auto;
+   margin-top: 70px;
+   padding-top: 300px;
+   background-image: url(../../img/jamaoa.png);
+   background-repeat: no-repeat;
+   background-position: calc(50% + 60px);
+}
+
+@media only screen and (max-width: 988px){
+   .join__inner {
+      flex-direction: column-reverse;
+      padding-left: 0;
+   }
+   .join__inner__card{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+   }
+}
+
+@media only screen and (max-width: 764px){
+   .join__inner__size{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 70px;
+      padding-top: 300px;
+      background-image: url(../../img/jamoachilar.png);
+      background-repeat: no-repeat;
+      background-size: 680px;
+      background-position: calc(50% - 10px);
+   }
+   .join__inner__card__box{
+      display: none;
+   }
+   .join__inner__card__daf{
+      display: block;
+      padding-left: 90px;
+      width: 700px;
+      height: 550px;
+      padding-top: 300px;
+   }
+}

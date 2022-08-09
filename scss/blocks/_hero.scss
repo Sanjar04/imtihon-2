@@ -1,0 +1,133 @@
+.hero__inner {
+   padding-top: 153px;
+   background-image: url(../../img/bg-img-hero.svg);
+   background-repeat: no-repeat;
+   padding-bottom: 152px;
+}
+
+.hero__inner__title {
+   width: 500px;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 56px;
+   letter-spacing: -2.5px;
+   color: #FFFFFF;
+   margin-left: 165px;
+}
+
+.hero__inner__card {
+   display: flex;
+   padding-top: 40px;
+}
+
+.hero__inner__card__text__copy {
+   width: 405px;
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   color: #FFFFFF;
+}
+
+.hero__inner__card__text__btn {
+   padding-top: 14px;
+   padding-bottom: 14px;
+   padding-left: 39px;
+   padding-right: 39px;
+   background: #FCB72B;
+   border: none;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 25px;
+   color: #FFFFFF;
+   margin-top: 40px;
+}
+
+.hero__inner__card__text__btn:hover{
+   color: #FCB72B;
+   background: none;
+   border: 1px solid #FCB72B;
+}
+
+.hero__inner__card__text:nth-child(1){
+   margin-left: 0;
+   margin-top: 40px;
+}
+
+.hero__inner__card__text:nth-child(2){
+   margin-left: 57px;
+}
+
+.hero__inner__card__text:nth-child(3){
+   margin-left: 27px;
+   margin-top: 25px;
+}
+
+.hero__inner__card__next{
+   display: none;
+}
+
+@media only screen and (max-width: 988px){
+   .hero__inner__card__text:nth-child(1){
+      display: none;
+   }
+   .hero__inner {
+      padding-top: 137px;
+      background-image: url(../../img/planshet\ beg-img.png);
+      background-repeat: no-repeat;
+      padding-bottom: 152px;
+      text-align: center;
+   }
+   .hero__inner__title {
+      max-width: 573px;
+      margin-left: auto;
+      margin-right: auto;
+
+   }
+   .hero__inner__card__text:nth-child(2){
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 24px;
+   }
+   .hero__inner__card{
+      flex-direction: column;
+   }
+   .hero__inner__card__text__btn{
+      margin-top: 32px;
+   }
+   .hero__inner__card__text:nth-child(3){
+      transform: translate(-300px, 40px);
+   }
+}
+
+@media only screen and (max-width: 764px){
+   .hero__inner__card__text:nth-child(3){
+      display: none;
+   }
+   .hero__inner {
+      padding-top: 113px;
+      background-image: url(../../img/planshet\ beg-img.png);
+      background-repeat: no-repeat;
+      padding-bottom: 100px;
+      text-align: center;
+   }
+   .hero__inner__title {
+      max-width: 350px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 56px;
+      line-height: 56px;
+   }
+   .hero__inner__card__next{
+      display: block;
+      transform: translate(-294px, 50px);
+   }
+   .hero__inner__card__text__copy{
+      max-width: 573px;
+   }
+}

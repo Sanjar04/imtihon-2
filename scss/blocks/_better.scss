@@ -1,0 +1,194 @@
+.better__inner__card {
+   display: flex;
+   padding-top: 70px;
+}
+
+.better__inner__card__text__title {
+   width: 445px;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 48px;
+   letter-spacing: -2.14286px;
+   color: #495567;
+   margin-left: 165px;
+   margin-top: 40px;
+}
+
+.better__inner__card__text__copy {
+   width: 445px;
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   margin-top: 24px;
+   color: #939CAA;
+   margin-left: 165px;
+}
+
+.better__inner__card__box__seyf {
+   padding-top: 300px;
+   padding-left: 50px;
+   background-image: url(../../img/about-digital.png);
+   background-repeat: no-repeat;
+   background-position: calc(50% + 90px);
+}
+
+.better__inner__card__box__next {
+   display: none;
+}
+
+.better__inner__dark__box__img {
+   display: none;
+}
+
+.better__inner__dark__box__from {
+   margin-top: 120px;
+}
+
+.better__inner__dark {
+   display: flex;
+}
+
+.better__inner__dark__text__title {
+   width: 445px;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 48px;
+   letter-spacing: -2.14286px;
+   color: #495567;
+   margin-top: 245px;
+}
+
+.better__inner__dark__text__copy {
+   width: 445px;
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   color: #939CAA;
+   margin-top: 24px;
+}
+
+.better__inner__dark__text{
+   padding-left: 200px;
+}
+
+@media only screen and (max-width: 988px) {
+   .better__inner__dark {
+      display: flex;
+      flex-direction: column;
+   }
+   .better__inner__dark__text__title{
+      font-size: 48px;
+      line-height: 48px;
+      width: 457px;
+      margin-top: 56px;
+      margin-left: 55px;
+   }
+   .better__inner__dark__text__copy{
+      font-size: 15px;
+      line-height: 25px;
+      width: 573px;
+      margin-top: 40px;
+   }
+   .better__inner__dark__text{
+      padding-left: 0px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+   }
+
+   .better__inner__card {
+      display: flex;
+      padding-top: 70px;
+      flex-direction: column-reverse;
+   }
+
+   .better__inner__card__box__seyf {
+      padding-top: 300px;
+      padding-left: 200px;
+      background-image: url(../../img/about-digital.png);
+      background-repeat: no-repeat;
+      background-position: calc(50% + 160px);
+   }
+
+   .better__inner__card__text__title {
+      margin-left: 0;
+      width: 457px;
+      margin-left: 60px;
+      margin-top: 56px;
+   }
+
+   .better__inner__card__text__copy {
+      margin-left: 0;
+      width: 573px;
+      margin-top: 40px;
+   }
+
+   .better__inner__card__text {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+   }
+}
+
+@media only screen and (max-width: 764px) {
+   .better__inner__dark__box__from{
+      display: none;
+   }
+   .better__inner__dark__box__img{
+      display: block;
+      margin-top: 120px;
+      padding-top: 50px;
+      padding-bottom: 300px;
+      background-image: url(../../img/about-tel-bter.png);
+      background-repeat: no-repeat;
+      background-size: 500px;
+      background-position: calc(50% + 7px);
+   }
+   .better__inner__dark__text__title{
+      width: 311px;
+      font-size: 32px;
+      line-height: 32px;
+      margin-left: 0;
+   }
+   .better__inner__dark__text__copy{
+      width: 311px;
+      font-size: 15px;
+      line-height: 25px;
+   }
+
+   .better__inner__card__box__seyf {
+      display: none;
+   }
+
+   .better__inner__card__box__next {
+      display: block;
+      padding-left: 370px;
+      padding-top: 300px;
+      padding-bottom: 200px;
+      background-image: url(../../img/about-tel-digitel.png);
+      background-repeat: no-repeat;
+      background-size: 500px;
+      background-position: calc(50% + 10px);
+   }
+
+   .better__inner__card__text__copy {
+      width: 311px;
+      font-size: 15px;
+      line-height: 25px;
+   }
+
+   .better__inner__card__text__title {
+      width: 311px;
+      font-size: 32px;
+      line-height: 32px;
+      margin-left: 0;
+   }
+}

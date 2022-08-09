@@ -1,0 +1,111 @@
+.project__inner {
+   display: flex;
+   padding-left: 165px;
+   background-image: url(../../img/to`g`ri-chiziq.png);
+   background-repeat: no-repeat;
+   background-position: calc(-10px) calc(+200px);
+}
+
+.project__inner__card {
+   margin-top: 160px;
+   margin-left: 30px;
+}
+
+.project__inner__card:nth-child(1){
+   margin-left: 0;
+}
+
+.project__inner__card__text__title {
+   margin-top: 40px;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   letter-spacing: -1.07143px;
+   color: #495567;
+}
+
+.project__inner__card__text__copy {
+   margin-top: 27px;
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   color: #939CAA;
+   width: 350px;
+}
+
+@media only screen and (max-width: 988px){
+   .project__inner{
+      flex-direction: column;
+      background-image: url(../../img/tikka-chiziq.png);
+      background-repeat: no-repeat;
+      background-position: calc(205px) calc(-50px);
+   }
+   .project__inner__card{
+      margin-left: 0;
+      display: flex;
+      margin-top: 40px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .project__inner__card{
+      margin-left: 0;
+   }
+   .project__inner__card:nth-child(1){
+      margin-top: 122px;
+   }
+   .project__inner__card__text__copy{
+      width: 398px;
+      font-weight: 400;
+      font-size: 15px;
+      margin-top: 27px;
+   }
+   .project__inner__card__text__title{
+      margin-top: 0;
+   }
+   .project__inner__card__text{
+      margin-left: 79px;
+   }
+}
+
+@media only screen and (max-width: 764px){
+   .project__inner__card{
+      flex-direction: column;
+   }
+   .project__inner{
+      flex-direction: column;
+      background-image: none;
+      background-position: calc(205px) calc(-50px);
+   }
+   .project__inner__card__img{
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .project__inner__card{
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .project__inner__card:nth-child(1){
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .project__inner{
+      padding-left: 0;
+   }
+   .project__inner__card__text__title{
+      margin-top: 24px;
+   }
+   .project__inner__card__text__copy{
+      margin-top: 24px;
+      font-size: 15px;
+      line-height: 25px;
+      width: 311px;
+   }
+   .project__inner__card__text{
+      text-align: center;
+      margin-left: 0;
+   }
+}

@@ -1,0 +1,107 @@
+.selections__inner {
+   padding-top: 120px;
+   padding-left: 165px;
+}
+
+.selections__inner__card__text__title {
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   letter-spacing: -1.07143px;
+   color: #495567;
+}
+
+.selections__inner__card__text__copy {
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   color: #495567;
+   margin-top: 10px;
+}
+
+.selections__inner__card:nth-child(1){
+   margin-top: 0;
+}
+
+.selections__inner__card{
+   width: 1110px;
+   background: #F2F5F9;
+   padding-top: 32px;
+   padding-left: 40px;
+   padding-bottom: 68px;
+   padding-right: 64px;
+   margin-top: 24px;
+   display: flex;
+}
+
+.selections__inner__card__btn{
+   padding-top: 14px;
+   padding-bottom: 14px;
+   padding-left: 67px;
+   padding-right: 66px;
+   background: #FCB72B;
+   border: none;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 25px;
+   color: #FFFFFF;
+   margin-left: auto;
+   margin-top: 25px;
+}
+
+.selections__inner__card__btn:hover{
+   color: #FCB72B;
+   background: none;
+   border: 1px solid #FCB72B;
+}
+
+@media only screen and (max-width: 988px){
+   .selections__inner__card{
+      width: 900px;
+      background: #F2F5F9;
+      padding-top: 32px;
+      padding-left: 40px;
+      padding-bottom: 68px;
+      padding-right: 64px;
+      margin-top: 24px;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .selections__inner {
+      padding-top: 120px;
+      padding-left: 0px;
+   }
+}
+
+@media only screen and (max-width: 764px){
+   .selections__inner__card{
+      width: 700px;
+      background: #F2F5F9;
+      padding-top: 32px;
+      padding-left: 40px;
+      padding-bottom: 68px;
+      padding-right: 64px;
+      margin-top: 24px;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .selections__inner__card__btn{
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      height: 50px;
+   }
+   .selections__inner__card__text{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+   }
+}

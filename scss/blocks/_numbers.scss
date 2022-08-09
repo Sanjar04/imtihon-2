@@ -1,0 +1,73 @@
+.numbers__inner__card {
+   display: flex;
+}
+
+.numbers__inner__title {
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 48px;
+   text-align: center;
+   letter-spacing: -2.14286px;
+   color: #495567;
+   margin-top: 120px;
+}
+
+.numbers__inner__card__text {
+   text-align: center;
+   margin-left: 30px;
+}
+
+.numbers__inner__card__text:nth-child(1){
+   margin-left: 165px;
+}
+
+.numbers__inner__card__text__title {
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: center;
+   letter-spacing: -1.07143px;
+   color: #495567;
+   margin-top: 32px;
+}
+
+.numbers__inner__card__text__copy {
+   width: 350px;
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   text-align: center;
+   color: #939CAA;
+   margin-top: 27px;
+}
+
+@media only screen and (max-width: 988px){
+   .numbers__inner__card {
+      flex-direction: column;
+   }
+   .numbers__inner__card__text:nth-child(1){
+      margin-left: 0px;
+   }
+   .numbers__inner__card__text {
+      text-align: center;
+      margin-left: 30px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .numbers__inner__card__text:nth-child(1){
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
+
+@media only screen and (max-width: 764px){
+   .numbers__inner__card__text__copy{
+      width: 311px;
+   }
+}

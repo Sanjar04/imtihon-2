@@ -1,0 +1,59 @@
+.locations__inner {
+   background-image: url(../../img/locations.png);
+   background-repeat: no-repeat;
+   background-size: 1400px;
+   padding-top: 72px;
+   padding-bottom: 72px;
+   padding-left: 165px;
+}
+
+.locations__inner__title {
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 56px;
+   letter-spacing: -2.5px;
+   color: #FFFFFF;
+}
+
+@media only screen and (max-width: 988px){
+   .locations__inner {
+      background-image: url(../../img/locations-planshet.png);
+      background-repeat: no-repeat;
+      background-size: 960px;
+      padding-top: 72px;
+      padding-bottom: 72px;
+      padding-left: 97px;
+   }
+   .locations__inner__title {
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -2.5px;
+      color: #FFFFFF;
+   }
+}
+
+@media only screen and (max-width: 764px){
+   .locations__inner {
+      background-image: url(../../img/locations-planshet.png);
+      background-repeat: no-repeat;
+      background-size: 980px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+   }
+   .locations__inner__title {
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 56px;
+      letter-spacing: -2.5px;
+      color: #FFFFFF;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}

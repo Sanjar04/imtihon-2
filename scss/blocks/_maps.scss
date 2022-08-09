@@ -1,0 +1,190 @@
+.maps__inner__card {
+   width: 1110px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 100px;
+}
+
+.display {
+   display: none;
+}
+
+.maps__inner__dick {
+   display: flex;
+   margin-left: 154px;
+   margin-top: 120px;
+}
+
+.maps__inner__dick__next__title {
+   width: 351px;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 48px;
+   letter-spacing: -2.14286px;
+   color: #495567;
+}
+
+.maps__inner__dick__next__copy {
+   width: 445px;
+   font-family: 'Lexend Deca';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+   color: #939CAA;
+}
+
+.maps__inner__dick__next__btn{
+   padding-top: 14px;
+   padding-bottom: 14px;
+   padding-left: 39px;
+   padding-right: 39px;
+   background: #FCB72B;
+   border: none;
+   font-family: 'Space Mono';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 15px;
+   line-height: 25px;
+   color: #FFFFFF;
+   margin-left: 105px;
+}
+
+.maps__inner__dick__next__btn:hover{
+   color: #FCB72B;
+   background: none;
+   border: 1px solid #FCB72B;
+}
+
+@media only screen and (max-width: 988px) {
+   .maps__inner__card {
+      width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .maps__inner__card__box {
+      width: 850px;
+      height: 300px;
+   }
+   .maps__inner__dick{
+      flex-direction: column;
+      margin-left: 0;
+   }
+   .maps__inner__dick__next{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+   }
+   .maps__inner__dick__next__btn{
+      margin-left: 0;
+      margin-top: 40px;
+   }
+   .maps__inner__dick__next__copy{
+      margin-top: 40px;
+   }
+}
+
+@media only screen and (max-width: 764px) {
+   .maps__inner__card {
+      width: 620px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .maps__inner__card__box {
+      width: 620px;
+      height: 200px;
+   }
+
+   .display {
+      display: block;
+   }
+
+   .maps__inner__text:nth-child(1) {
+      margin-top: 72px;
+   }
+
+   .maps__inner__text {
+      width: 311px;
+      height: 72px;
+      margin-top: 16px;
+      background: rgba(252, 183, 43, 0.15);
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .maps__inner__text__copy {
+      text-align: center;
+      padding-top: 22px;
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: -1.07143px;
+      color: #495567;
+   }
+
+   .maps__inner__box {
+      text-align: center;
+      padding-top: 70px;
+   }
+
+   .maps__inner__box__title {
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 32px;
+      width: 311px;
+      text-align: center;
+      letter-spacing: -1.42857px;
+      color: #495567;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+   .maps__inner__box__copy {
+      width: 311px;
+      font-family: 'Lexend Deca';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      color: #939CAA;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 32px;
+   }
+
+   .maps__inner__box__btn {
+      margin-top: 32px;
+      padding-top: 14px;
+      padding-bottom: 14px;
+      padding-left: 39px;
+      padding-right: 39px;
+      background: #FCB72B;
+      border: none;
+      font-family: 'Space Mono';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 25px;
+      color: #FFFFFF;
+   }
+
+   .maps__inner__box__btn:hover {
+      color: #FCB72B;
+      background: none;
+      border: 1px solid #FCB72B;
+   }
+
+   .maps__inner__dick {
+      display: none;
+   }
+}
